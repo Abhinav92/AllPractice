@@ -44,6 +44,7 @@ public class OpenChromeAndLoginToGmail {
 	    public static void openGmail(String username,String password, String URL) throws AWTException, IOException, InterruptedException {
 			
 		
+	    	System.out.println("GIT PUSH TEST");
 			objLogin = new Login(driver);
 		    objLogin.loginToGmail(driver,username,password);
 
